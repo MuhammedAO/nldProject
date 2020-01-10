@@ -4011,3 +4011,165 @@ font-size: 10px;
 line-height: 12px;
 color: #4E4E4E;
 }
+
+.b_rmd1{
+position: absolute;
+width: 498px;
+height: 19px;
+left: 741px;
+top: 2146px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;  
+color: rgba(4, 52, 26, 0.8);
+}
+
+.b_rmdtxt1{
+position: absolute;
+width: 561px;
+height: 28px;
+left: 741px;
+top: 2171px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #313131;
+}
+
+.b_clock2{
+position: absolute;
+width: 14px;
+height: 14px;
+left: 741px;
+top: 2216px;
+}
+
+.clock_b1i{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.b_rmd_dt1{
+position: absolute;
+width: 83px;
+height: 12px;
+left: 771px;
+top: 2218px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;
+}
+
+.b_rmdeye1{
+position: absolute;
+width: 18px;
+height: 18px;
+left: 904px;
+top: 2215px;
+
+}
+
+.b_rmdsee1{
+position: absolute;
+width: 23px;
+height: 12px;
+left: 936px;
+top: 2218px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #878787;    
+}
+
+.b_rmd_c1{
+position: absolute;
+width: 15px;
+height: 15px;
+left: 1010px;
+top: 2214px;
+}
+
+.b_rmd_c1i{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 7.14%;
+bottom: 7.14%;
+background: #878787;
+}
+
+.b_rmd_num{
+position: absolute;
+width: 17px;
+height: 12px;
+left: 1040px;
+top: 2218px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;
+}
+
+.rec242{
+position: absolute;
+width: 88px;
+height: 21px;
+left: 1109px;
+top: 2212px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_rmd_ent1{
+position: absolute;
+width: 63px;
+height: 12px;
+left: 1122px;
+top: 2217px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #4E4E4E;
+}
+
+.rec243{
+position: absolute;
+width: 74px;
+height: 21px;
+left: 1210px;
+top: 2212px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_rmd_cb1{
+position: absolute;
+width: 48px;
+height: 12px;
+left: 1223px;
+top: 2217px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #4E4E4E;
+}
+
+
