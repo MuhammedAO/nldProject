@@ -3852,3 +3852,162 @@ font-size: 10px;
 line-height: 12px;
 color: #4E4E4E;
 }
+
+
+.b_sex1{
+position: absolute;
+width: 493px;
+height: 19px;
+left: 741px;
+top: 2012px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: rgba(4, 52, 26, 0.8);
+}
+
+.b_sex_ii{
+position: absolute;
+width: 561px;
+height: 28px;
+left: 741px;
+top: 2037px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #313131;
+}
+
+.b_clock_b{
+position: absolute;
+width: 14px;
+height: 14px;
+left: 741px;
+top: 2082px;
+}
+
+.clock_bi{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.b_dt_b{
+position: absolute;
+width: 83px;
+height: 12px;
+left: 771px;
+top: 2084px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;   
+color: #878787;  
+}
+
+.b_eye1{
+position: absolute;
+width: 18px;
+height: 18px;
+left: 904px;
+top: 2081px;
+}
+
+.b_eyesee1{
+position: absolute;
+width: 23px;
+height: 12px;
+left: 936px;
+top: 2084px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #878787;
+}
+
+.b_comment1{
+position: absolute;
+width: 15px;
+height: 15px;
+left: 1010px;
+top: 2081px;
+}
+
+.b_comment_1i{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 7.14%;
+bottom: 7.14%;
+}
+
+.b_num_bi{
+position: absolute;
+width: 17px;
+height: 12px;
+left: 1040px;
+top: 2084px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;  
+color: #878787;
+}
+
+.rec240{
+position: absolute;
+width: 62px;
+height: 21px;
+left: 1109px;
+top: 2078px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_gen1{
+position: absolute;
+width: 35px;
+height: 12px;
+left: 1122px;
+top: 2082px;   
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #4E4E4E;
+}
+
+.rec241{
+position: absolute;
+width: 56px;
+height: 21px;
+left: 1183px;
+top: 2078px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_fam1{
+position: absolute;
+width: 30px;
+height: 12px;
+left: 1196px;
+top: 2082px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #4E4E4E;
+}
