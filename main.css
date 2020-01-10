@@ -3397,3 +3397,458 @@ width: 1236px;
 top: 1979px;
 height: 424px;
 }
+
+.b_sex{
+position: absolute;
+width: 493px;
+height: 19px;
+left: 127px;
+top: 2012px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;  
+color: rgba(4, 52, 26, 0.8);
+}
+
+.b_sex_i{
+position: absolute;
+width: 561px;
+height: 28px;
+left: 127px;
+top: 2037px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #313131;
+}
+
+.b_clock{
+position: absolute;
+width: 14px;
+height: 14px;
+left: 127px;
+top: 2082px; 
+}
+
+.clock_b{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.b_dt{
+position: absolute;
+width: 83px;
+height: 12px;
+left: 157px;
+top: 2084px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;
+}
+
+
+.b_eyesee{
+position: absolute;
+width: 23px;
+height: 12px;
+left: 322px;
+top: 2084px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;
+}
+
+.b_eye{
+position: absolute;
+width: 18px;
+height: 18px;
+left: 290px;
+top: 2081px;
+}
+
+
+.b_comment{
+position: absolute;
+width: 15px;
+height: 15px;
+left: 396px;
+top: 2080px;   
+}
+
+#b_comment_i{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 7.14%;
+bottom: 7.14%;
+}
+
+.b_num{
+position: absolute;
+width: 17px;
+height: 12px;
+left: 426px;
+top: 2084px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;    
+}
+
+.rec235{
+position: absolute;
+width: 62px;
+height: 21px;
+left: 495px;
+top: 2078px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_gen{
+position: absolute;
+width: 35px;
+height: 12px;
+left: 508px;
+top: 2082px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #4E4E4E;    
+}
+
+.rec236{
+position: absolute;
+width: 56px;
+height: 21px;
+left: 569px;
+top: 2078px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_fam{
+position: absolute;
+width: 30px;
+height: 12px;
+left: 582px;
+top: 2082px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #4E4E4E;
+}
+
+.b_rmd{
+position: absolute;
+width: 498px;
+height: 19px;
+left: 127px;
+top: 2146px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px; 
+color: rgba(4, 52, 26, 0.8);
+}
+
+.b_rmdtxt{
+position: absolute;
+width: 561px;
+height: 28px;
+left: 127px;
+top: 2171px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #313131;
+}
+
+.b_clock1{
+position: absolute;
+width: 14px;
+height: 14px;
+left: 127px;
+top: 2216px;
+    
+}
+
+.clock_b1{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+.b_rmd_dt{
+position: absolute;
+width: 83px;
+height: 12px;
+left: 157px;
+top: 2218px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;
+}
+
+.b_rmdeye{
+position: absolute;
+width: 18px;
+height: 18px;
+left: 290px;
+top: 2213.9px;  
+}
+
+.b_rmdsee{
+position: absolute;
+width: 23px;
+height: 12px;
+left: 322px;
+top: 2218px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #878787;
+}
+
+.b_rmd_c{
+position: absolute;
+width: 15px;
+height: 15px;
+left: 396px;
+top: 2214.5px;   
+}
+
+.b_rmd_c1{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 7.14%;
+bottom: 7.14%;
+}
+
+.b_num1{
+position: absolute;
+width: 17px;
+height: 12px;
+left: 426px;
+top: 2218px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;    
+}
+
+.rec237{
+position: absolute;
+width: 88px;
+height: 21px;
+left: 495px;
+top: 2212px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_rmd_ent{
+position: absolute;
+width: 63px;
+height: 12px;
+left: 508px;
+top: 2217px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #4E4E4E;
+}
+
+.rec238{
+position: absolute;
+width: 74px;
+height: 21px;
+left: 596px;
+top: 2212px;
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_rmd_cb{
+position: absolute;
+width: 48px;
+height: 12px;
+left: 609px;
+top: 2217px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #4E4E4E;
+}
+
+.b_manu{
+position: absolute;
+width: 491px;
+height: 19px;
+left: 127px;
+top: 2279px;  
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;    
+color: rgba(4, 52, 26, 0.8);
+}
+
+.b_manutxt{
+position: absolute;
+width: 561px;
+height: 28px;
+left: 127px;
+top: 2304px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #313131;
+}
+
+.b_manuclk{
+position: absolute;
+width: 14px;
+height: 14px;
+left: 127px;
+top: 2349px;
+}
+
+.clock_b2{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.b_manudt{
+position: absolute;
+width: 83px;
+height: 12px;
+left: 157px;
+top: 2351px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;    
+}
+
+.b_manueye{
+position: absolute;
+width: 18px;
+height: 18px;
+left: 290px;
+top: 2348px;
+}
+
+.b_manueye_c{
+position: absolute;
+width: 23px;
+height: 12px;
+left: 322px;
+top: 2351px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #878787;
+}
+
+.b_manu_c{
+position: absolute;
+width: 15px;
+height: 15px;
+left: 396px;
+top: 2348px;
+}
+
+.b_manu_c1{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 7.14%;
+bottom: 7.14%;
+}
+
+.b_num2{
+position: absolute;
+width: 17px;
+height: 12px;
+left: 426px;
+top: 2351px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;    
+color: #878787;
+}
+
+.rec234{
+position: absolute;
+width: 46px;
+height: 21px;
+left: 494px;
+top: 2347px;
+
+background: #E8ECD8;
+border-radius: 7px;
+}
+
+.b_manusp{
+position: absolute;
+width: 25px;
+height: 12px;
+left: 506px;
+top: 2352px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+color: #4E4E4E;
+}
