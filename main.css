@@ -5502,16 +5502,94 @@ font-weight: bold;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
-
 color: #595959;
 
 }
 
+.rec1229{
+position: absolute;
+background: rgb(232, 236, 216);
+left: 1282px;
+width: 54px;
+top: 3086px;
+height: 52px;
+}
+
+/* arrow up */
+#n24_482 {
+    position: absolute;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	left: 1303px;
+	top: 3104px;
+}
+
+#n24_484 {
+    position: absolute;
+	top: 23.59%;
+	bottom: 23.59%;
+}
+
+.twitter{
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 663px;
+top: 3128px;
+
+}
+
+.bird{
+    position: absolute;
+    left: 0%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(4, 52, 26, 0.8);
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.ig{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 707px;
+top: 3128px;
+}
 
 
+.insta{
+    position: absolute;
+    left: 0%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(4, 52, 26, 0.8);
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
 
-
-
+.fb{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 750px;
+    top: 3128px;
+}
+.fbc{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgba(4, 52, 26, 0.8);
+    left: -0.29%;
+    right: 0%;
+    top: -0.16%;
+    bottom: -0.15%;
+    
+}
 
 
 
