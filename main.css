@@ -30,11 +30,11 @@ background-position: center center;
 }
 
 .tr{
-position: absolute;
-width: 55px;
+position: relative;
+width: 57px;
 height: 16px;
 left: 841px;
-top: 26px;
+top: 24px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -42,15 +42,32 @@ font-size: 14px;
 line-height: 16px;
 color: rgba(4, 52, 26, 0.8);
 text-decoration: none;
+}
 
+.tr::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%; 
+  height: 2px;
+  bottom: 0;
+  background-color: currentColor;  
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.tr:hover::after{
+transform: scaleX(1);
+transform-origin: left;
 }
 
 .rr{
- position: absolute;
+ position: relative;
 width: 44px;
 height: 16px;
-left: 939px;
-top: 26px;
+left: 885px;
+top: 24px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -60,12 +77,30 @@ color: rgba(4, 52, 26, 0.8);
 text-decoration: none;
 }
 
+.rr::after{
+content: '';
+position: absolute;
+left: 0;
+width: 100%; 
+height: 2px;
+bottom: 0;
+background-color: currentColor;  
+transform: scaleX(0);
+transform-origin: right;
+transition: transform 250ms ease-in;
+}
+
+.rr:hover::after{
+transform: scaleX(1);
+transform-origin: left;
+}
+
 .nr{
-    position: absolute;
+    position: relative;
     width: 28px;
     height: 16px;
-    left: 1025px;
-    top: 26px;
+    left: 956px;
+    top: 24px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -75,12 +110,31 @@ text-decoration: none;
     text-decoration: none;  
 }
 
+.nr::after{
+content: '';
+position: absolute;
+left: 0;
+width: 100%; 
+height: 2px;
+bottom: 0;
+background-color: currentColor;  
+
+transform: scaleX(0);
+transform-origin: right;
+transition: transform 250ms ease-in;
+}
+
+.nr:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 .loj{
-    position: absolute;
+    position: relative;
     width: 151px;
     height: 16px;
-    left: 1141px;
-    top: 26px;
+    left: 1000px;
+    top: 24px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -88,6 +142,23 @@ text-decoration: none;
     line-height: 16px;  
     color: rgba(4, 52, 26, 0.9);
     text-decoration: none; 
+}
+
+.loj::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%; 
+    height: 2px;
+    bottom: 0;
+    background-color: currentColor;  
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+.loj:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
 }
 .vec{
     position: absolute;
@@ -213,7 +284,49 @@ top: 172px;
 border: 1px solid #EAEAEA;
 }
 
-.form{
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid   #339661;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: rgba(4, 52, 26, 0.8);
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid  #339661;
+    background: #339661;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    position: absolute;
+    width: 25%;
+    top: 22.5%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+/* .form{
 position: absolute;
 width: 574px;
 height: 42px;
@@ -237,7 +350,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 16px;
 color: gray;
-}
+} */
 
 /* #arc{
  position: absolute;
@@ -257,7 +370,8 @@ background: rgba(4, 52, 26, 0.21);
 	background-position: center center;
 	box-shadow: rgba(0, 0, 0, 0.07) 4px 4px 30px 0px;
 	left: 102px;
-	width: 286px;
+    width: 286px;
+    
 	top: 205px;
 	height: 213px;
 }
@@ -267,6 +381,7 @@ position: absolute;
 width: 286px;
 height: 197px;
 left: 102px;
+cursor: pointer;
 top: 221px;
 background: url("./img/Rectangle\ 228.png");
 }
@@ -381,6 +496,7 @@ height: 213px;
 }
 
 .rec229{
+cursor: pointer;
 position: absolute;
 left: 418px;
 width: 286px;
@@ -498,6 +614,7 @@ height: 213px;
 }
 
 .rec230{
+cursor: pointer;
 position: absolute;
 left: 735px;
 width: 286px;
@@ -616,6 +733,7 @@ height: 213px;
 }
 
 .rec231{
+ cursor: pointer;
 position: absolute;
 left: 1051px;
 width: 286px;
@@ -728,6 +846,7 @@ background-repeat: no-repeat;
 background-position: center center;
 left: 102px;
 width: 321px;
+cursor: pointer;
 top: 454px;
 height: 98px;
 }
@@ -740,6 +859,7 @@ background-repeat: no-repeat;
 background-position: center center;
 left: 102px;
 width: 320px;
+cursor: pointer;
 top: 567px;
 height: 101px;
 }
@@ -813,6 +933,7 @@ color: #545454;
     height: 14px;
     left: 127px;
     top: 800px;
+    cursor: pointer;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -838,6 +959,7 @@ color: #545454;
     width: 32px;
     height: 14px;
     left: 214px;
+    cursor: pointer;
     top: 800px;
     font-family: Roboto;
     font-style: normal;
@@ -861,6 +983,7 @@ border-radius: 7px;
 .romance{
 position: absolute;
 width: 51px;
+cursor: pointer;
 height: 14px;
 left: 298px;
 top: 800px;
@@ -886,6 +1009,7 @@ border-radius: 7px;
 .job{
 position: absolute;
 width: 74px;
+cursor: pointer;
 height: 14px;
 left: 130px;
 top: 845px;
@@ -914,6 +1038,7 @@ width: 60px;
 height: 14px;
 left: 260px;
 top: 845px;
+cursor: pointer;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -942,6 +1067,7 @@ top: 843px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
+cursor: pointer;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
@@ -968,6 +1094,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
+cursor: pointer;
 line-height: 14px;
 text-align: center;
 color: #595959; 
@@ -992,6 +1119,7 @@ top: 888px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
+cursor: pointer;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
@@ -1019,6 +1147,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
+cursor: pointer;
 line-height: 14px;    
 text-align: center;
 color: #595959;
@@ -1045,6 +1174,7 @@ border-radius: 7px;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
+    cursor: pointer;
     text-align: center;
     color: #595959;
 }
@@ -1072,6 +1202,7 @@ font-size: 12px;
 line-height: 14px;
 text-align: center;
 color: #595959;
+cursor: pointer;
 }
 
 .rec130{
@@ -1091,6 +1222,7 @@ height: 14px;
 left: 295px;
 top: 932px;   
 font-family: Roboto;
+cursor: pointer;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -1119,6 +1251,7 @@ border-radius: 7px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
+    cursor: pointer;
     line-height: 14px;
     text-align: center;
     color: #595959;
@@ -1142,6 +1275,7 @@ border-radius: 7px;
     left: 214px;
     top: 975px;
     font-family: Roboto;
+    cursor: pointer;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1184,6 +1318,7 @@ border-radius: 7px;
     left: 131px;
     top: 1084px;
     font-family: Roboto;
+    cursor: pointer;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1211,6 +1346,7 @@ border-radius: 7px;
     top: 1084px;  
     font-family: Roboto;
     font-style: normal;
+    cursor: pointer;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
@@ -1232,6 +1368,7 @@ border-radius: 7px;
 position: absolute;
 width: 68px;
 height: 14px;
+cursor: pointer;
 left: 323px;
 top: 1085px;
 font-family: Roboto;
@@ -1261,6 +1398,7 @@ left: 136px;
 top: 1128px;
 font-family: Roboto;
 font-style: normal;
+cursor: pointer;
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
@@ -1285,6 +1423,7 @@ border-radius: 7px;
     left: 244px;
     top: 1127px;
     font-family: Roboto;
+    cursor: pointer;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1313,6 +1452,7 @@ top: 1126px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
+cursor: pointer;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
@@ -1341,6 +1481,7 @@ border-radius: 7px;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
+    cursor: pointer;
     text-align: center;
     color: #595959;  
 }
@@ -1364,6 +1505,7 @@ top: 1171px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
+cursor: pointer;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
@@ -1406,6 +1548,7 @@ height: 14px;
 left: 134px;
 top: 1273px;
 font-family: Roboto;
+cursor: pointer;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -1429,6 +1572,7 @@ position: absolute;
 width: 68px;
 height: 14px;
 left: 262px;
+cursor: pointer;
 top: 1274px;
 font-family: Roboto;
 font-style: normal;
@@ -1459,6 +1603,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
+cursor: pointer;
 line-height: 14px;
 text-align: center;
 color: #595959;
@@ -1483,6 +1628,7 @@ top: 1316px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
+cursor: pointer;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
@@ -1505,6 +1651,7 @@ width: 41px;
 height: 14px;
 left: 239px;
 top: 1316px;
+cursor: pointer;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -1521,6 +1668,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
 left: 102px;
+cursor: pointer;
 width: 321px;
 top: 1413px;
 height: 404px;
@@ -1572,6 +1720,7 @@ background-repeat: no-repeat;
 background-position: center center;
 left: 489px;
 width: 135px;
+cursor: pointer;
 top: 523px;
 height: 100px;
 }
@@ -3316,6 +3465,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 18.75px;
 letter-spacing: 0px;
+cursor: pointer;
 align-items: normal;
 color: rgb(4, 52, 26);
 }
@@ -3323,6 +3473,7 @@ color: rgb(4, 52, 26);
 #n24_441-4 {
 font-family: Roboto;
 font-size: 16px;
+cursor: pointer;
 font-weight: 400;
 line-height: 18.75px;
 letter-spacing: 0px;
@@ -3333,6 +3484,7 @@ color: rgb(4, 52, 26);
 /* arrow 1 */
 #n24_442 {
 width: 18px;
+cursor: pointer;
 height: 18px;
 overflow: hidden;
 left: 756px;
@@ -3343,6 +3495,7 @@ top: 1858px;
 left: -7.3742%;
 top: 10%;
 right: 10.6262%;
+cursor: pointer;
 position: absolute;
 }
 /* arrow 2 */
@@ -3352,6 +3505,7 @@ height: 18px;
 overflow: hidden;
 left: 1047px;
 top: 1876px;
+cursor: pointer;
 }
 
 /* arrow 2 */
@@ -4347,6 +4501,7 @@ color: #4E4E4E
 position: absolute;
 background-image: url("https://s3-alpha-sig.figma.com/img/85fc/e757/6570d7a3de3b3fe2f3578db4236663f5?Expires=1579478400&Signature=L7heAr5gX65a13QZXQ0tmTwtV~U2~KattUMvBcOtfAGGTYxJivDcmkA0PJdjt153uNy15c-bnEQAiTA0Bu-BLLYXp90BMIrIPMNsZnf646OHeb2osiuftHOV1IJfyqc14E3-mwLyvs9XExxCouA0Yqqf5ODOsZfA0kD4TvUXAUc2BFKt37KAlboxYwVNxLcyv-cQB-j9traEYWLU5hrwqSURB-N2XBtKYrv9vwApSMmlblS4ppJnlaK-TmvYwyx82UTGBRUOmR387FxkzOhotxIL6j-B2nGRx80dvtWawYNmZrlavr6H0LS2h8biyU~Frs9OR~Zjoi57cRMZZfFn8Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
 background-size: cover;
+cursor: pointer;
 background-repeat: no-repeat;
 background-position: center center;
 left: 101px;
@@ -4364,6 +4519,7 @@ background-position: center center;
 left: 721px;
 width: 610px;
 top: 2431px;
+cursor: pointer;
 height: 170px;
 }
 
@@ -5519,7 +5675,8 @@ height: 52px;
 #n24_482 {
     position: absolute;
 	width: 16px;
-	height: 16px;
+    height: 16px;
+    cursor: pointer;
 	overflow: hidden;
 	left: 1303px;
 	top: 3104px;
@@ -5535,6 +5692,7 @@ height: 52px;
 
 position: absolute;
 width: 24px;
+cursor: pointer;
 height: 24px;
 left: 663px;
 top: 3128px;
@@ -5557,6 +5715,7 @@ position: absolute;
 width: 24px;
 height: 24px;
 left: 707px;
+cursor: pointer;
 top: 3128px;
 }
 
@@ -5577,6 +5736,7 @@ top: 3128px;
     width: 24px;
     height: 24px;
     left: 750px;
+    cursor: pointer;
     top: 3128px;
 }
 .fbc{
@@ -5591,13 +5751,144 @@ top: 3128px;
     
 }
 
+.rec128a{
+position: absolute;
+border-radius: 20px;
+	box-shadow: rgb(183, 183, 183) 0px 0px 0px 1px inset;
+	left: 287px;
+	width: 863px;
+	top: 3179px;
+	height: 42px;
+}
+
+
+.search1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm1 {
+    width: 100%;
+    border: 3px solid  rgba(4, 52, 26, 0.8);
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm1:focus{
+    color:#04341A;
+  }
+  
+  .searchButton1 {
+    width: 40px;
+    height: 36px;
+    border: 1px solid rgba(4, 52, 26, 0.8);
+    background: #04341A;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap1{
+    position: absolute;
+    width: 45%;
+    height: 28px;
+   left: 50.5%;
+    top: 3200px;
+    transform: translate(-50%, -50%);
+  }
 
 
 
+#n24_485 {
+    position: absolute;
+	align-items: normal;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 689px;
+	transform: translate(0px, 0px);
+	line-height: 16.4063px;
+	height: 37px;
+	left: 375px;
+	top: 3246px;
+}
 
+#n24_485-21 {
+    /* position: absolute; */
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.4063px;
+	letter-spacing: 0px;
+	align-items: normal;
+	color: rgb(4, 52, 26);
+}
 
+#n24_485-20 {
+    /* position: absolute; */
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 16.4063px;
+	letter-spacing: 0px;
+	align-items: normal;
+}
 
+.rec127a{
+position: absolute;
+width: 1500px;
+height: 44px;
+left: -1px;
+top: 3352px;
+background: #04341A;
+border: 1px solid #C8CCC0;
+box-sizing: border-box;
+border-radius: 0px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
 
+.disclaimer{
+position: absolute;
+width: 479px;
+height: 16px;
+left: 480px;
+top: 3350px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+    
+}
+
+/* #n24_486 {
+    position: absolute;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+	width: 479px;
+	transform: translate(0px, 0px);
+	line-height: 16.4063px;
+	height: 16px;
+	left: 480px;
+	top: 3322px;
+} */
 
 
 
